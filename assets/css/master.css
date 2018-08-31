@@ -1,21 +1,24 @@
 p {
   display: block;
   margin: 1em;
-  }
+  font-family: Georgia,'Neuton',sans-serif;
+}
 
 h3 {
-	    display: block;
-	    font-size: 1.17em;
-      margin: 1em;
-	    font-weight: bold;
-	}
+  display: block;
+  font-size: 1.17em;
+  margin: 1em;
+  font-weight: bold;
+  font-family: Verdana, 'Arimo',sans-serif;
+
+}
 
 .main_title {
-  border-style: solid;
-  border-width: 1px;
+  border-style: hidden;
   margin-top: 50px;
   margin-bottom: 25px;
   padding: 1%;
+  background-color: #DB0012;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -23,6 +26,11 @@ h3 {
 .list {
   position: relative;
   margin-left: 15px;
+}
+
+
+li{
+  font-family: Georgia,"Neuton",sans-serif;
 }
 
 .list li:before {
@@ -35,7 +43,7 @@ h3 {
   position: relative;
   margin-left: 15px;
 }
-
+/*  */
 .inlist li:before {
   content: "•";
   color: red;
@@ -46,14 +54,19 @@ h3 {
   font-size: 150%;
   text-align: center;
   font-weight: bold;
+  /* font- */
+  color: white;
   margin-top: 1%;
   margin-bottom: 2%;
+  font-family:  Verdana,"Arimo",sans-serif;
 }
 
 #semestre {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 200%;
+  font-family:  Verdana,"Arimo",sans-serif;
+
 
 }
 
@@ -85,9 +98,13 @@ body {
 }
 
 /* div.inline-block { */
-  /* vertical-align: top; */
-  /* display: inline-block; */
+
+/* vertical-align: top; */
+
+/* display: inline-block; */
+
 /* } */
-.parent{
+
+.parent {
   display: flex;
 }

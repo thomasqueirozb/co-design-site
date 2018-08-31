@@ -1,5 +1,5 @@
 .dropbtn {
-    background-color: #db0012;
+    background-color: #DB0012;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -35,11 +35,11 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #aa0010;}
+.dropdown:hover .dropbtn {background-color: #B51C00;}
 
 /* BOTAO DE DENTRO */
 .dropbtn-inside {
-    background-color: #4CAF50;
+    background-color: #130082;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -83,4 +83,4 @@
 .dropdown-inside:hover .dropdown-content-inside {
   display: block;}
 
-.dropdown-inside:hover .dropbtn-inside {background-color: #3e8e41;}
+.dropdown-inside:hover .dropbtn-inside {background-color: #0027E8;}
