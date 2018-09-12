@@ -1,16 +1,15 @@
 p {
   display: block;
-  margin: 1em;
-  font-family: Georgia,'Neuton',sans-serif;
+  margin: 1rem;
+  font-family: Georgia, 'Neuton', sans-serif;
 }
 
 h3 {
   display: block;
-  font-size: 1.17em;
-  margin: 1em;
+  font-size: 1.17rem;
+  margin: 1rem;
   font-weight: bold;
-  font-family: Verdana, 'Arimo',sans-serif;
-
+  font-family: Verdana, 'Arimo', sans-serif;
 }
 
 .main_title {
@@ -28,9 +27,8 @@ h3 {
   margin-left: 15px;
 }
 
-
-li{
-  font-family: Georgia,"Neuton",sans-serif;
+li {
+  font-family: Georgia, "Neuton", sans-serif;
 }
 
 .list li:before {
@@ -58,14 +56,14 @@ li{
   color: white;
   margin-top: 1%;
   margin-bottom: 2%;
-  font-family:  Verdana,"Arimo",sans-serif;
+  font-family: Verdana, "Arimo", sans-serif;
 }
 
 #semestre {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 200%;
-  font-family:  Verdana,"Arimo",sans-serif;
+  font-family: Verdana, "Arimo", sans-serif;
 }
 
 main {
@@ -87,8 +85,8 @@ main {
 .text-center {
   text-align: center;
   font-size: 150%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -98,7 +96,6 @@ body {
 .parent {
   display: flex;
 }
-
 
 @media (max-width: 361px) {
   .main_title {
@@ -114,42 +111,39 @@ body {
     font-size: 75%;
     text-align: center;
     font-weight: bold;
-    /* font- */
     color: white;
     margin-top: 1%;
     margin-bottom: 2%;
-    font-family:  Verdana,"Arimo",sans-serif;
+    font-family: Verdana, "Arimo", sans-serif;
   }
   #semestre {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 75%;
-    font-family:  Verdana,"Arimo",sans-serif;
+    font-family: Verdana, "Arimo", sans-serif;
   }
-
   .text-center {
     text-align: center;
     font-size: 75%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   p {
     display: block;
-    margin: 1em;
-    font-family: Georgia,'Neuton',sans-serif;
-    font-size: 0.55em;
+    margin: 1rem;
+    font-family: Georgia, 'Neuton', sans-serif;
+    font-size: 0.55rem;
   }
-
   h3 {
     display: block;
-    font-size: 0.75em;
-    margin: 1em;
+    font-size: 0.75rem;
+    margin: 1rem;
     font-weight: bold;
-    font-family: Verdana, 'Arimo',sans-serif;
+    font-family: Verdana, 'Arimo', sans-serif;
   }
   .list {
     position: relative;
     margin-left: 15px;
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 }
