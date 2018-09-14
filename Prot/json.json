@@ -1,0 +1,31 @@
+{
+  "Estudo Direcionados": ["Projeto final de Modelagem e Simulação", "Projeto Final de Matemática da variação", "Projeto Final de Matemática Multivariada"],
+  "Eletrônica": ["Projeto Final de Modelagem e Controle", "Projeto Final de Acionamentos Elétricos", "Estação Metereológica"],
+  "Computação": ["Projeto Final de Design de Software", "Projeto Final de Co-Design de Aplicativos"],
+  "Inovadores": ["Inovação incremental para empresa existente", "Melhoria para carroças de catadores"],
+  "Materiais": ["Projeto Final de Desconstruindo a Matéria"],
+  "Administração": ["Modelo de negócio para startup nova"],
+  "Design": {
+    "Girafa do Job Rotation": {
+      "semestre": "1",
+      "objetivo": "O projeto consiste em elaborar uma pergunta sobre a modelagem de um corpo livre e, com base nessa pergunta, elaborar um estudo aprofundado e uma conclusão para a pergunta.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Python", "Jupyter Notebook"],
+        "Conhecimentos Físicos e Matemáticos": ["Segunda Lei de Newton", "Segunda Lei de Newton"]
+      },
+      "habilidades": ["Elaboração de um Diagrama de Corpo Livre", "Elaboração de um Diagrama de Corpo Livre"]
+    }
+  },
+  "Desafios": {
+    "Cases de Grandes Desafios de Engenharia": {
+      "semestre": "1",
+      "objetivo": "O projeto consiste em elaborar uma pergunta sobre a modelagem de um corpo livre e, com base nessa pergunta, elaborar um estudo aprofundado e uma conclusão para a pergunta.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Python", "Jupyter Notebook"],
+        "Conhecimentos Físicos e Matemáticos": ["Segunda Lei de Newton", "Segunda Lei de Newton"]
+      },
+      "habilidades": ["Elaboração de um Diagrama de Corpo Livre", "Elaboração de um Diagrama de Corpo Livre"]
+    }
+  },
+  "Análise de Dados": ["Projeto Final de Ciência dos Dados"]
+}

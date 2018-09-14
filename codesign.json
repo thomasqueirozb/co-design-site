@@ -1,5 +1,4 @@
 {
-  "Disciplinas": {
     "Estudo Direcionados": ["Projeto final de Modelagem e Simulação", "Projeto Final de Matemática da variação", "Projeto Final de Matemática Multivariada"],
     "Eletrônica": ["Projeto Final de Modelagem e Controle", "Projeto Final de Acionamentos Elétricos", "Estação Metereológica"],
     "Computação": ["Projeto Final de Design de Software", "Projeto Final de Co-Design de Aplicativos"],
@@ -9,5 +8,4 @@
     "Design": ["Girafa do Job Rotation"],
     "Desafios": ["Cases de Grandes Desafios de Engenharia"],
     "Análise de Dados": ["Projeto Final de Ciência dos Dados"]
-  }
 }
