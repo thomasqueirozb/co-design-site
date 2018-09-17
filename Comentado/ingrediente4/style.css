@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.item {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}

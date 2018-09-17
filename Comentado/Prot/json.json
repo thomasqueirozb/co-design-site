@@ -1,0 +1,155 @@
+{
+  "Estudo Direcionados": {
+    "Projeto final de Modelagem e Simulação": {
+      "semestre": "1",
+      "objetivo": "O projeto consiste em elaborar uma pergunta sobre a modelagem de um corpo livre e, com base nessa pergunta, elaborar um estudo aprofundado e uma conclusão para a pergunta.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Python", "Jupyter Notebook"],
+        "Conhecimentos Físicos e Matemáticos": ["Segunda Lei de Newton", "Segunda Lei de Newton"]
+      },
+      "habilidades": ["Elaboração de um Diagrama de Corpo Livre", "Elaboração de um Diagrama de Corpo Livre"]
+    },
+    "Projeto Final de Matemática da variação": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    },
+    "Projeto Final de Matemática Multivariada": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Eletrônica": {
+    "Projeto Final de Modelagem e Controle": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    },
+    "Projeto Final de Acionamentos Elétricos": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    },
+    "Estação Metereológica": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Computação": {
+    "Projeto Final de Design de Software": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    },
+    "Projeto Final de Co-Design de Aplicativos": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Inovadores": {
+    "Inovação incremental para empresa existente": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    },
+    "Melhoria para carroças de catadores": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Materiais": {
+    "Projeto Final de Desconstruindo a Matéria": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Administração": {
+    "Modelo de negócio para startup nova": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Design": {
+    "Girafa do Job Rotation":{
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Desafios": {
+    "Cases de Grandes Desafios de Engenharia": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  },
+  "Análise de Dados": {
+    "Projeto Final de Ciência dos Dados": {
+      "semestre": "0",
+      "objetivo": "O projeto consiste em alguma coisa.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Windows", "Computador"],
+        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+      },
+      "habilidades": ["Fazer um projeto", "Várias coisas"]
+    }
+  }
+}
