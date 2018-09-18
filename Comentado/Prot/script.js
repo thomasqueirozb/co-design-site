@@ -1,37 +1,69 @@
-// let a;
 document.addEventListener('DOMContentLoaded', function() {
+
   let db = connect('https://co-design-919f7.firebaseio.com/')
 
 
   let params = extract()
-
-  let course_name = params['course']
-
-  let path = '/'
-
-  db.download(path, function(data) {
-    // console.log(data);
-    // a=data;
+  let len = Object.keys(params).length
 
 
 
-    mat = data[params['category']][course_name]
-    replace('body', {
-      'name': course_name,
-      'semestre': mat['semestre'],
-      'objetivo': mat['objetivo'],
+  db.download("/", function(data) {
 
-      'conhecimentos': mat['conhecimentos'],
-      'habilidades': mat['habilidades'],
-      'category': data
-    })
-    replace('head', {
-      'name': course_name
-    })
+    if (len) {
+      mat = data[params['category']][params['course']]
+      replace('body', {
+        'name': params['course'],
+        'semestre': mat['semestre'],
+        'objetivo': mat['objetivo'],
 
-    let but=document.querySelector(".dropbtn-inside")
-    console.log(but.innerText)
-    but.addEventListener('mouseover', function() {
-      but.style.setProperty('--open', 'flex') })
+        'conhecimentos': mat['conhecimentos'],
+        'habilidades': mat['habilidades'],
+        'category': data
+      })
+      replace('head', {
+        'name': params['course']
+      })
+    } else {
+
+      replace('body', {
+        'category': data
+      })
+      replace('head', {
+        'name': "INSPER"
+      })
+    }
+
   })
+
 })
+
+
+function aparece(materia) {
+  var dropdowns = document.getElementsByClassName("dropdown-content");
+  var i;
+  for (i = 0; i < dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+      openDropdown.classList.remove('show');
+    }
+  }
+  document.getElementById(materia).classList.toggle("show");
+}
+
+
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}

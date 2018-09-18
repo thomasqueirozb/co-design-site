@@ -1,0 +1,128 @@
+/*
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+
+}
+
+.dropdown-content {
+    display: inline-block;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* .dropdown:hover .dropdown-content {display: inline-block;} */
+
+/* .dropdown:hover .dropbtn {background-color: #B51C00;} */
+
+/* BOTAO DE DENTRO */
+/* .dropbtn-inside {
+    background-color: #130082;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    min-width: 160px;
+    border: none;
+
+}
+
+.dropdown-inside {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.dropdown-content-inside {
+    display:none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content-inside a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.dropdown-content-inside a:hover {background-color: #ddd;}
+
+
+.dropdown-inside:hover .dropbtn-inside {background-color: #0027E8;} */
+
+
+
+
+/*  */
+/* .dropdown-inside:hover .dropdown-content-inside {display: flex;} */
+/*  */
+
+
+.dropbtn {
+    background-color: #DB0012;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {background-color: #B51C00;}
+
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: flex;
+align-items: flex-end;}

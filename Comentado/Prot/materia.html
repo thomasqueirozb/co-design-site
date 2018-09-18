@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- Grupo 10 -->
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -26,12 +25,16 @@
   <script src="script.js"></script>
 
 
-
-
 </head>
 
 <body>
+  <!-- <div class="lock">
+    <p>Carregando Página</p>
+  </div> -->
 
+
+  <!-- <button class="dropbtn">Áreas</button>
+    <div class="dropdown-content"> -->
   <a id="link" href="index.html">Principal</a>
 
   <div class="dropdown">
@@ -45,18 +48,58 @@
     {{/each}}
   </div>
 
+
+
   <header class="main_title">
-    <h1 id="project_title">
-      INSPER
-    </h1>
+    <h1 id="project_title">{{name}}</h1>
   </header>
   <main>
-    <img class="photo-center" src="https://picsum.photos/500/400/?random" alt="Slider de imagens">
-    <p></p>
-    <h1 class="text-center">Setembro:</h1>
-    <p></p>
-    <img class="photo-center" src="https://picsum.photos/500/300/?random" alt="Calendário do mês atual">
+
+    <img class="photo-center" src="https://picsum.photos/500/300/?random" alt="Imagem do {{name}}">
+
+    <h2 id="semestre">{{semestre}}º Semestre</h2>
+
+    <h3> Objetivo:</h3>
+    <p>{{objetivo}}</p>
+
+    <div class="parent">
+      <div>
+        <h3>
+          Conhecimentos Envolvidos:
+        </h3>
+
+        <ul class="list">
+          {{#each conhecimentos as |con val|}}
+            <li class="inlist">
+              {{val}}
+              <ul class="inlist">
+
+                {{#each con as |vall aaa|}}
+                  <li>{{vall}}</li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/each}}
+
+        </ul>
+      </div>
+
+      <div>
+        <h3>
+          Habilidades Desenvolvidas:
+        </h3>
+        <ul class="list">
+          {{#each habilidades}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
   </main>
+
+
+
 
 </body>
 
