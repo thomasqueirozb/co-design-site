@@ -39,19 +39,17 @@
 
   <!-- <button class="dropbtn">Áreas</button>
     <div class="dropdown-content"> -->
-  <a id="link" href="index.html">Principal</a>
-
-  <div class="dropdown">
-    {{#each category as |cat mat|}}
-      <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
-      <div class="dropdown-content" id="{{mat}}">
-        {{#each cat as |aaaa course|}}
-          <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
-        {{/each}}
+    <div class="dropdown">
+      <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
+      {{#each category as |cat mat|}}
+        <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
+        <div class="dropdown-content" id="{{mat}}">
+          {{#each cat as |aaaa course|}}
+            <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
+          {{/each}}
       </div>
-    {{/each}}
-  </div>
-
+      {{/each}}
+    </div>
 
 
   <header class="main_title">

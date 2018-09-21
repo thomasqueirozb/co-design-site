@@ -16,49 +16,56 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/master.css">
   <link rel="stylesheet" href="./assets/css/dropdown.css">
-  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
   <!-- Javascript -->
   <script src="./lib/app.js"></script>
   <script src="./lib/database.js"></script>
   <script src="./lib/codes.js"></script>
   <script src="./lib/handlebars.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
-  <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!-- <script>
-  $( function() {
+  <script>
+    $( function() {
     $( "#datepicker" ).datepicker();
   } );
-  </script> -->
+  </script>
 
   <!-- <script src="calendario.js"></script> -->
   <script src="script.js"></script>
 
 </head>
 
+
+
+<!-- <img id="logo" src="./assets/img/Insper.png" alt="Logo do Insper"> -->
+
+
 <body>
 
-  <a id="link" href="index.html">Principal</a>
-
   <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
+    <div class="contentmenu">
       <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
       <div class="dropdown-content" id="{{mat}}">
         {{#each cat as |aaaa course|}}
           <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
         {{/each}}
       </div>
-    {{/each}}
+    </div>
+  {{/each}}
   </div>
 
   <header class="main_title">
     <h1 id="project_title">
-      INSPER
+      Página Principal
     </h1>
   </header>
   <main>
-    <img class="photo-center" src="https://picsum.photos/500/400/?random" alt="Slider de imagens">
+
+    <img class="photo-center" src="https://picsum.photos/200/100/?random" alt="Slider de imagens">
     <p></p>
     <h1 class="text-center">Setembro:</h1>
     <p></p>
