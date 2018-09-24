@@ -67,3 +67,9 @@ window.onclick = function(event) {
     }
   }
 }
+function openNav() {
+    document.getElementById("dropdown_slide").style.width = "15%";
+}
+function closeNav() {
+    document.getElementById("dropdown_slide").style.width = "0";
+}

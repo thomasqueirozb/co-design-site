@@ -38,14 +38,18 @@
 
 </head>
 
+<!-- <img class="logo" src="./assets/img/Insper.png" alt="Logo do Insper"> -->
 
 
-<!-- <img id="logo" src="./assets/img/Insper.png" alt="Logo do Insper"> -->
 
 
 <body>
-  <div class="dropdown">
-    <i class="material-icons" style="font-size:48px;color:white">phone_android</i>
+<div class="icon">
+  <a class="material-icons home_icon" onclick="openNav()">menu</a>
+</div>
+
+  <div class="dropdown" id="dropdown_slide">
+    <a class="material-icons home_icon" onclick="closeNav()">menu</a>
     <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
       <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
@@ -63,6 +67,7 @@
     </h1>
   </header>
   <main>
+
 
     <img class="photo-center" src="https://picsum.photos/200/100/?random" alt="Slider de imagens">
     <p></p>
