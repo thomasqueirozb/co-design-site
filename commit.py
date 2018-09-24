@@ -2,15 +2,18 @@ from subprocess import call
 from os import getcwd
 
 path = getcwd()
-call(f'cd {path}', shell = True)
-print(f'>>> cd {path}')
 
-call('git add *')
-print('>>> git add *')
+print(f'>>> cd {path}')
+call(f'cd {path}', shell = True)
 
 msg = input("Commit message: ")
+
+print('>>> git add *')
+call('git add *')
+
 if msg == '':
     msg = 'Auto'
+
 if msg.lower() not in ['exit', 'quit', 'q']:
     print(f'>>> git commit -m {msg}')
     call(f'git commit -m "{msg}"')
