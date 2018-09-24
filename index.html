@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
 
   <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/master.css">
   <link rel="stylesheet" href="./assets/css/dropdown.css">
@@ -43,19 +44,17 @@
 
 
 <body>
-
   <div class="dropdown">
+    <i class="material-icons" style="font-size:48px;color:white">phone_android</i>
     <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
-    <div class="contentmenu">
       <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
       <div class="dropdown-content" id="{{mat}}">
         {{#each cat as |aaaa course|}}
           <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
         {{/each}}
-      </div>
     </div>
-  {{/each}}
+    {{/each}}
   </div>
 
   <header class="main_title">
