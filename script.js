@@ -56,10 +56,8 @@ function aparece(materia) {
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
+    var dropdowns = document.querySelectorAll(".dropdown-content");
+    for (let i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
@@ -68,8 +66,8 @@ window.onclick = function(event) {
   }
 }
 function openNav() {
-    document.getElementById("dropdown_slide").style.width = "10rem";
+    document.querySelector("#dropdown_slide").style.width = "10rem";
 }
 function closeNav() {
-    document.getElementById("dropdown_slide").style.width = "0";
+    document.querySelector("#dropdown_slide").style.width = "0";
 }

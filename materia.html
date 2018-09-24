@@ -33,26 +33,22 @@
 </head>
 
 <body>
-  <!-- <div class="lock">
-    <p>Carregando Página</p>
-  </div> -->
+  <div class="icon">
+    <a class="material-icons home_icon" onclick="openNav()" onfocus="openNav()">menu</a>
+  </div>
 
-    <div class="icon">
-      <a class="material-icons home_icon" onclick="openNav()">menu</a>
+  <div class="dropdown" id="dropdown_slide">
+    <a class="material-icons home_icon" onclick="closeNav()" onfocus="closeNav()">menu</a>
+    <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
+    {{#each category as |cat mat|}}
+      <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
+    <div class="dropdown-content" id="{{mat}}">
+      {{#each cat as |aaaa course|}}
+        <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
+      {{/each}}
     </div>
-
-      <div class="dropdown" id="dropdown_slide">
-        <a class="material-icons home_icon" onclick="closeNav()">menu</a>
-        <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
-        {{#each category as |cat mat|}}
-          <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
-          <div class="dropdown-content" id="{{mat}}">
-            {{#each cat as |aaaa course|}}
-              <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
-            {{/each}}
-        </div>
-        {{/each}}
-      </div>
+    {{/each}}
+  </div>
 
   <header class="main_title">
     <h1 id="project_title">{{name}}</h1>
