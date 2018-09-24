@@ -68,7 +68,7 @@ window.onclick = function(event) {
   }
 }
 function openNav() {
-    document.getElementById("dropdown_slide").style.width = "15%";
+    document.getElementById("dropdown_slide").style.width = "10rem";
 }
 function closeNav() {
     document.getElementById("dropdown_slide").style.width = "0";

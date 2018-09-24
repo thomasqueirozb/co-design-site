@@ -108,7 +108,7 @@ body {
   display: flex;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 361px) {
   p {
     display: block;
     margin: 1rem;
@@ -135,8 +135,8 @@ body {
     margin-bottom: 25px;
     padding: 1%;
     background-color: #DB0012;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .list {
