@@ -34,11 +34,11 @@
 
 <body>
   <div class="icon">
-    <a class="material-icons home_icon" onclick="openNav()" onfocus="openNav()">menu</a>
+    <a class="material-icons home_icon" onclick="openNav()" onmouseover="openNavM()">menu</a>
   </div>
 
   <div class="dropdown" id="dropdown_slide">
-    <a class="material-icons home_icon" onclick="closeNav()" onfocus="closeNav()">menu</a>
+    <a class="material-icons home_icon" onclick="closeNav()" onmouseover="closeNavM()">menu</a>
     <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
       <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>

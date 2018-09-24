@@ -65,9 +65,23 @@ window.onclick = function(event) {
     }
   }
 }
+
 function openNav() {
-    document.querySelector("#dropdown_slide").style.width = "10rem";
+  document.querySelector("#dropdown_slide").style.width = "10rem";
 }
+
+function openNavM() {
+  if (window.screen.availWidth <= 360) {
+    document.querySelector("#dropdown_slide").style.width = "10rem";
+  }
+}
+
 function closeNav() {
+  document.querySelector("#dropdown_slide").style.width = "0";
+}
+
+function closeNav() {
+  if (window.screen.availWidth <= 360) {
     document.querySelector("#dropdown_slide").style.width = "0";
+  }
 }

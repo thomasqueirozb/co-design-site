@@ -12,6 +12,7 @@
   overflow-x: hidden;
   transition: 0.5s;
 }
+
 .dropdown a:hover {
   background-color: #ddd;
 }
@@ -53,22 +54,27 @@
 }
 
 .material-icons.home_icon {
-  font-size:32px;
-  color:white;
+  font-size: 32px;
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .material-icons.home_icon:hover {
   background-color: #B51C00;
 }
 
-.icon{
+.icon {
   background-color: #DB0012;
   cursor: pointer;
   width: 4rem;
   top: 1%;
   display: flex;
   position: fixed;
-
 }
 
 .icon:hover {
@@ -90,6 +96,7 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
+
   .dropdown a:hover {
     background-color: #ddd;
   }
@@ -131,26 +138,24 @@
   }
 
   .material-icons.home_icon {
-    font-size:32px;
-    color:white;
+    font-size: 32px;
+    color: white;
   }
 
   .material-icons.home_icon:hover {
     background-color: #B51C00;
   }
 
-  .icon{
+  .icon {
     background-color: #DB0012;
     cursor: pointer;
     width: 4rem;
     top: 1%;
     display: flex;
     position: fixed;
-
   }
 
   .icon:hover {
     background-color: #B51C00;
   }
-
 }
