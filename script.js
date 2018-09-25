@@ -40,21 +40,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function aparece(materia) {
-  var dropdowns = document.getElementsByClassName("dropdown-content");
-  var i;
-  for (i = 0; i < dropdowns.length; i++) {
+  document.querySelector("#but_"+materia).innerText='top'
+  var dropdowns = document.querySelectorAll(".dropdown-content");
+
+  for (let i = 0; i < dropdowns.length; i++) {
     var openDropdown = dropdowns[i];
     if (openDropdown.classList.contains('show')) {
       openDropdown.classList.remove('show');
     }
   }
-  document.getElementById(materia).classList.toggle("show");
+  document.querySelector('#'+materia).classList.toggle('show');
 }
 
 
 
 
 window.onclick = function(event) {
+  // console.log(event.target);
+
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.querySelectorAll(".dropdown-content");
     for (let i = 0; i < dropdowns.length; i++) {
@@ -63,10 +66,14 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
+    if (!event.target.matches('.material-icons')) {
+      document.querySelector("#dropdown_slide").style.width = "0";
+    }
   }
 }
 
 function openNav() {
+  // console.log(document.querySelector("#dropdown_slide"));
   document.querySelector("#dropdown_slide").style.width = "10rem";
 }
 

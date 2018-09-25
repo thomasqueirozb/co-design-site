@@ -27,12 +27,6 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <script>
-    $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
-
   <!-- <script src="calendario.js"></script> -->
   <script src="script.js"></script>
 
@@ -40,11 +34,8 @@
 
 <!-- <img class="logo" src="./assets/img/Insper.png" alt="Logo do Insper"> -->
 
-
-
-
 <body>
-  <div class="icon">
+  <div class="icon" onclick="openNav()">
     <a class="material-icons home_icon" onclick="openNav()" onfocus="openNav()">menu</a>
   </div>
 
@@ -52,7 +43,7 @@
     <a class="material-icons home_icon" onclick="closeNav()" onfocus="closeNav()">menu</a>
     <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
-      <button class="dropbtn" onclick="aparece('{{mat}}')" >{{mat}}</button>
+      <button class="dropbtn" onclick="aparece('{{mat}}')" id="but_{{mat}}" >{{mat}}</button>
     <div class="dropdown-content" id="{{mat}}">
       {{#each cat as |aaaa course|}}
         <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
@@ -62,10 +53,9 @@
   </div>
 
   <header class="main_title">
-    <h1 id="project_title">
-      Página Principal
-    </h1>
+    <h1 id="project_title">Página Principal</h1>
   </header>
+
   <main>
 
 
