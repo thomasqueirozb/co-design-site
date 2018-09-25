@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function aparece(materia) {
-  // document.querySelector("#but_"+materia).innerText='top'
+
   var dropdowns = document.querySelectorAll(".dropdown-content");
 
   for (let i = 0; i < dropdowns.length; i++) {
@@ -49,7 +49,7 @@ function aparece(materia) {
       openDropdown.classList.remove('show');
     }
   }
-  document.querySelector('#'+materia).classList.toggle('show');
+  document.getElementById(materia).classList.toggle('show');
 }
 
 
