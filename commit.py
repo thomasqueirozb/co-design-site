@@ -8,13 +8,14 @@ call(f'cd {path}', shell = True)
 
 msg = input("Commit message: ")
 
-print('>>> git add *')
-call('git add *')
 
 if msg == '':
     msg = 'Auto'
 
 if msg.lower() not in ['exit', 'quit', 'q']:
+    print('>>> git add *')
+    call('git add *')
+    
     print(f'>>> git commit -m {msg}')
     call(f'git commit -m "{msg}"')
 
