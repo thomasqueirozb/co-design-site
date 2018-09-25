@@ -7,11 +7,12 @@
   top: 0;
   height: 100%;
   left: 0;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   z-index: 1;
   overflow-x: hidden;
   transition: 0.5s;
 }
+
 .dropdown a:hover {
   background-color: #ddd;
 }
@@ -20,9 +21,16 @@
   background-color: #DB0012;
   color: white;
   padding: 16px;
+  margin-top: 15px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .dropbtn:hover {
@@ -53,28 +61,27 @@
 }
 
 .material-icons.home_icon {
-  font-size:32px;
-  color:white;
+  font-size: 32px;
+  color: white;
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .material-icons.home_icon:hover {
   background-color: #B51C00;
 }
 
-.icon{
+.icon {
   background-color: #DB0012;
   cursor: pointer;
   width: 4rem;
-  top: 1%;
+  top: 0.5%;
   display: flex;
   position: fixed;
-
 }
 
 .icon:hover {
@@ -91,11 +98,12 @@
     top: 0;
     height: 100%;
     left: 0;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     z-index: 1;
     overflow-x: hidden;
     transition: 0.5s;
   }
+
   .dropdown a:hover {
     background-color: #ddd;
   }
@@ -104,9 +112,16 @@
     background-color: #DB0012;
     color: white;
     padding: 16px;
+    margin-top: 15px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .dropbtn:hover {
@@ -137,26 +152,30 @@
   }
 
   .material-icons.home_icon {
-    font-size:32px;
-    color:white;
+    font-size: 32px;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .material-icons.home_icon:hover {
     background-color: #B51C00;
   }
 
-  .icon{
+  .icon {
     background-color: #DB0012;
     cursor: pointer;
     width: 4rem;
-    top: 1%;
+    top: 0.5%;
     display: flex;
     position: fixed;
-
   }
 
   .icon:hover {
     background-color: #B51C00;
   }
-
 }

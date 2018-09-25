@@ -63,6 +63,7 @@ h3 {
 li {
   font-family: Georgia, "Neuton", sans-serif;
   font-size: 1rem;
+  margin-top: 10px;
 }
 
 .list li:before {
@@ -78,7 +79,7 @@ li {
 
 .inlist li:before {
   content: "•";
-  color: red;
+  color: blue;
   margin-right: 2px;
 }
 
@@ -86,11 +87,10 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* max-width: 100%;
-  min-width: 80%;
-  max-height: 100%;
-  min-height: 80%;
-  width: 50%; */
+  max-width: 40%;
+  min-width: 20%;
+  max-height: 30%;
+  min-height: 10%;
 }
 
 .text-center {
@@ -106,6 +106,67 @@ body {
 
 .parent {
   display: flex;
+}
+
+.calendario{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 700px;
+}
+
+.month {
+    padding: 20px 0px;
+    background: #DB0012;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0px;
+    background-color: #f1f1f1;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #B51C00;
+    text-align: center;
+}
+
+.days {
+    padding: 10px ;
+    background: white;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size:20px;
+    color: #B51C00;
+}
+
+.days li .active {
+    padding: 15px;
+    background: #DB0012;
+    color: white !important
 }
 
 @media (min-width: 361px) {
@@ -145,6 +206,7 @@ body {
   }
 
   li {
+    margin-top: 10px;
     font-family: Georgia, "Neuton", sans-serif;
   }
 
@@ -161,7 +223,7 @@ body {
 
   .inlist li:before {
     content: "•";
-    color: red;
+    color: blue;
     margin-right: 4px;
   }
 
@@ -182,20 +244,14 @@ body {
     font-size: 200%;
     font-family: Verdana, "Arimo", sans-serif;
   }
-
-  /* main {
-    padding-left: 10%;
-    padding-right: 10%;
-  } */
   .photo-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 100%;
-    min-width: 80%;
-    max-height: 100%;
-    min-height: 80%;
-    width: 50%; */
+    max-width: 40%;
+    min-width: 20%;
+    max-height: 30%;
+    min-height: 10%;
   }
 
   .text-center {
@@ -221,26 +277,65 @@ body {
   }
 
 
-
-  #logo{
-    max-height:  10rem;
-    max-width: 7rem;
-    background-color: #DB0012;
-    padding: 3px;
-
-    /* width: 10%; */
+  .calendario{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 700px;
   }
-  /* .lock {
-    left: 0%;
-    top: 0;
-    z-index: -10;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    border-style: hidden;
-    background-color: #DB0012;
-    justify-content: center;
-    color: white;
-    transition: left 0.5s;
-  } */
+
+  .month {
+      padding: 20px 0px;
+      background: #DB0012;
+      text-align: center;
+  }
+
+  .month ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .month ul li {
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+
+  .weekdays {
+      margin: 0;
+      padding: 10px 0px;
+      background-color: #f1f1f1;
+  }
+
+  .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #B51C00;
+      text-align: center;
+  }
+
+  .days {
+      padding: 10px ;
+      background: white;
+      margin: 0;
+  }
+
+  .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      text-align: center;
+      margin-bottom: 15px;
+      font-size:20px;
+      color: #B51C00;
+  }
+
+  .days li .active {
+      padding: 15px;
+      background: #DB0012;
+      color: white !important
+  }
+
 }

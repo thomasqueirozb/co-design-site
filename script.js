@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let len = Object.keys(params).length
 
 
-
   db.download("/", function(data) {
-
     if (len) {
       mat = data[params['category']][params['course']]
       replace('body', {
@@ -32,36 +30,38 @@ document.addEventListener('DOMContentLoaded', function() {
       replace('head', {
         'name': "INSPER"
       })
+
     }
 
   })
 
 })
 
+function aparece(materia,b) {
 
-function aparece(materia) {
-
-  var dropdowns = document.querySelectorAll(".dropdown-content");
+  let dropdowns = document.querySelectorAll(".dropdown-content");
 
   for (let i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
+    let openDropdown = dropdowns[i];
     if (openDropdown.classList.contains('show')) {
       openDropdown.classList.remove('show');
     }
   }
-  document.getElementById(materia).classList.toggle('show');
+
+  let dc = document.getElementById(materia);
+  dc.style.top=b.getBoundingClientRect().y+'px'
+  dc.classList.toggle('show');
 }
 
 
 
 
 window.onclick = function(event) {
-  // console.log(event.target);
 
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.querySelectorAll(".dropdown-content");
+  if (!event.target.matches('.dropbtn') && !event.target.matches('.dropdown')) {
+    let dropdowns = document.querySelectorAll(".dropdown-content");
     for (let i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+      let openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
@@ -73,7 +73,6 @@ window.onclick = function(event) {
 }
 
 function openNav() {
-  // console.log(document.querySelector("#dropdown_slide"));
   document.querySelector("#dropdown_slide").style.width = "10rem";
 }
 

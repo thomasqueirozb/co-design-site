@@ -1,155 +1,148 @@
 {
-  "Estudos Direcionados": {
-    "Projeto final de Modelagem e Simulação": {
+  "Matemática": {
+    "Projeto Final de Modelagem e Simulação": {
       "semestre": "1",
       "objetivo": "O projeto consiste em elaborar uma pergunta sobre a modelagem de um corpo livre e, com base nessa pergunta, elaborar um estudo aprofundado e uma conclusão para a pergunta.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Python", "Jupyter Notebook"],
-        "Conhecimentos Físicos e Matemáticos": ["Segunda Lei de Newton", "Segunda Lei de Newton"]
+        "Conhecimentos Computacionais": ["Python", "Jupyter Notebook","Matplotlib","SciPy","NumPy"],
+        "Conhecimentos Físicos e Matemáticos": ["Segunda Lei de Newton", "Energia Potencial/Cinética", "Derivada", "Derivada de Segunda Ordem"]
       },
-      "habilidades": ["Elaboração de um Diagrama de Corpo Livre", "Elaboração de um Diagrama de Corpo Livre"]
+      "habilidades": ["Elaboração de um Diagrama de Corpo Livre", "Análise do comportamento de um corpo físico em três eixos","Elaboração de gráfico tridimensional","Animações em Python","Aprofundamento em bibliotecas do Python"]
     },
-    "Projeto Final de Matemática da variação": {
+    "Projeto Final de Matemática da Variação": {
       "semestre": "2",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em elaborar um tema não abordado em sala de modo a apresentá-lo em uma aula.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Geogebra"],
+        "Conhecimentos Matemáticos": ["Técnicas de derivação", "Técnicas de integração","Equações Diferenciais"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Explicar temas de forma clara e precisa"]
     },
     "Projeto Final de Matemática Multivariada": {
       "semestre": "3",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em estudar um tema e apresentá-lo para as pessoas.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Geogebra"],
+        "Conhecimentos Físicos e Matemáticos": ["Técnicas de derivação", "Técnicas de integração"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Explicar o estudo e o tema de forma clara e precisa para as pessoas"]
     }
   },
   "Eletrônica": {
     "Projeto Final de Modelagem e Controle": {
       "semestre": "4",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em construir o seu robô auto-equilibrante.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Arduino", "Operação das Máquinas do FabLab"],
+        "Conhecimentos Auxiliares": ["Desenho Técnico"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Prototipagem", "Técnicas de Fabricação Digital (CAM)","Fundamentos de Design para Engenharia"]
     },
     "Projeto Final de Acionamentos Elétricos": {
       "semestre": "2",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em criar um sistema eletrônico e montá-lo fisicamente. O projeto deve possuir como objetivo algo que pode ser aplicado na prática.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Eletrônicos": ["Conhecimentos sobre componentes eletrônicos como resistores e Analog"],
+        "Conhecimentos Computacionais": ["Python", "CircuitLab"],
+        "Conhecimentos Físicos e Matemáticos": ["Cálculo aprofundado de eletrônica (potência elétrica, corrente)"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Cálculo eletrônico", "Montar modelos eletrônicos fisicamente"]
     },
     "Estação Metereológica": {
       "semestre": "1",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em montar uma estação metereológica. O aluno deve construí-la a partir do zero, construindo tanto a placa utilizada como o sistema com seus sensores.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Programação em C"],
+        "Conhecimentos Auxiliares": ["Operação das Maquinas do FabLab"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Técnicas de Fabricação Digital (CAM)","Desenho Assistido por Computador (CAD)"]
     }
   },
   "Computação": {
     "Projeto Final de Design de Software": {
       "semestre": "1",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em desenvolver um jogo ou projeto a parte (por exemplo, um site ou programa), desde que envolva alguma forma de programação em Python.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Programação em Python"],
+        "Conhecimentos Físicos e Matemáticos": ["Operadores básicos", "Operadores lógicos"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Desenvolvimento da biblioteca PyGame", "Desenvolvimento da biblioteca Tkinter", "Desenvolvimento da biblioteca Flask","Introdução à orientação de objetos"]
     },
     "Projeto Final de Co-Design de Aplicativos": {
       "semestre": "2",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste no desenvolvimento de um aplicativo centrado no usuário.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["JavaScript", "HTML","CSS"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Gerar designs acessíveis", "Designs centrados"]
+    },
+    "Projeto Final de Ciência dos Dados": {
+      "semestre": "2",
+      "objetivo": "O projeto consiste em criar um programa que analisa dados autonomamente, gerar um classificador Naive-Bayes que recebe um grupo de tweets e retorna eles devidamente classificados.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Programação em Python", "Biblioteca Pandas"Python],
+        "Conhecimentos Matemáticos": ["Estatística", "Cálculo de probabilidades"]
+      },
+      "habilidades": ["Análise de dados"Desenvolvimento da biblioteca Pandas]
     }
   },
-  "Inovadores": {
+  "Inovação": {
     "Inovação incremental para empresa existente": {
-      "semestre": "0",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "semestre": "4",
+      "objetivo": "O projeto consiste em analisar um produto de uma empresa existente e a partir dele desenvolver um produto incrementado e desenvolvido.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Word", "Powerpoint"],
+        "Conhecimentos Físicos e Matemáticos": ["Empreendorismo"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Brainstorming"]
     },
+    "Modelo de negócio para startup nova": {
+      "semestre": "4",
+      "objetivo": "O projeto dessa materia consiste em criar e desenvolver um modelo de negócio para uma startup nova, como exemplo o aluno deve criar um modelo pensando quem seria seu cliente, como está fazendo seu negócio e quanto esta gastanto e lucrando.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Google","Word","Excel"]
+
+      },
+      "habilidades": ["Possuir um pensamento aberto", "Saber realizar pesquisas sobre o seu produto e serviço"]
+    },
+    "Cases de Grandes Desafios de Engenharia": {
+      "semestre": "1",
+      "objetivo": "Os cases dessa matéria possuem o objetivo de 'abrir' as cabeças dos estudantes, fazer com que pensem de um novo jeito e se acostumem a tentar pensar em todos os pontos de vista em relação a assuntos diversos.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Word","Powerpoint"]
+      },
+      "habilidades": ["Realizar textos melhormente estruturados e formais","Apresentação em grupo", "Leituras de textos que auxiliam o aluno a desenvolver pensamento crítico."]
+    }
+  },
+  "Design e Produção": {
     "Melhoria para carroças de catadores": {
       "semestre": "1",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "objetivo": "O projeto consiste em propor alterações para carroças baseando-se nas opinões dos carroceiros, das quais algumas foram implementadas em três carroças selecionadas.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Computacionais": ["Fusion 360", "Operação das Maquinas do FabLab"],
+        "Conhecimentos Físicos e Matemáticos": ["Desenho Técnico"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Design Centrado no Usuário", "Fundamentos de Design para Engenharia","Desenho Técnico não Instrumentado"]
+    },
+    "Girafa do Job Rotation": {
+      "semestre": "1",
+      "objetivo": "Esse projeto consiste em fazer uma Girafa de Madeira a partir de varios processos de fabricação no FabLab, conhecendo assim os maquinários disponíveis para o uso durante a graduação.",
+      "conhecimentos": {
+        "Conhecimentos Computacionais": ["Fusion 360", "Operação das Maquinas do FabLab"],
+        "Conhecimentos Físicos e Matemáticos": ["Desenho Técnico"]
+      },
+      "habilidades": ["Prototipagem", "Técnicas de Fabricação Digital (CAM)","Desenho Assistido por Computador (CAD)"]
     }
   },
   "Materiais": {
     "Projeto Final de Desconstruindo a Matéria": {
-      "semestre": "0",
-      "objetivo": "O projeto consiste em alguma coisa.",
+      "semestre": "3",
+      "objetivo": "O projeto consiste em um estudo de materiais, de modo a determinar o material mais adequado para, por exemplo, uma construção ou produto.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
+        "Conhecimentos Químicos": ["Estruturas cristalinas", "Tensão de cisalhamento","Materiais cerâmicos, metálicos e poliméricos."],
+        "Conhecimentos Físicos": ["Diagrama de forças"]
       },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
-    }
-  },
-  "Administração": {
-    "Modelo de negócio para startup nova": {
-      "semestre": "0",
-      "objetivo": "O projeto consiste em alguma coisa.",
-      "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
-      },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
-    }
-  },
-  "Design": {
-    "Girafa do Job Rotation":{
-      "semestre": "1",
-      "objetivo": "O projeto consiste em alguma coisa.",
-      "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
-      },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
-    }
-  },
-  "Desafios": {
-    "Cases de Grandes Desafios de Engenharia": {
-      "semestre": "1",
-      "objetivo": "O projeto consiste em alguma coisa.",
-      "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
-      },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
-    }
-  },
-  "Análise de Dados": {
-    "Projeto Final de Ciência dos Dados": {
-      "semestre": "2",
-      "objetivo": "O projeto consiste em alguma coisa.",
-      "conhecimentos": {
-        "Conhecimentos Computacionais": ["Windows", "Computador"],
-        "Conhecimentos Físicos e Matemáticos": ["Gravidade", "Soma"]
-      },
-      "habilidades": ["Fazer um projeto", "Várias coisas"]
+      "habilidades": ["Teste de resistência", "Cálculo da tensão"]
     }
   }
 }
