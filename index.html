@@ -43,7 +43,7 @@
     <a class="material-icons home_icon" onclick="closeNav()">menu</a>
     <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
     {{#each category as |cat mat|}}
-      <button class="dropbtn" onclick="aparece('{{mat}}')" onfocus="aparece('{{mat}}')" id="but_{{mat}}" >{{mat}}</button>
+      <button class="dropbtn" onclick="aparece('{{mat}}')" onfocus="aparece('{{mat}}')">{{mat}}</button>
     <div class="dropdown-content" id="{{mat}}">
       {{#each cat as |aaaa course|}}
         <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>

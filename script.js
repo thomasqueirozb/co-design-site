@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function aparece(materia) {
-  document.querySelector("#but_"+materia).innerText='top'
+  // document.querySelector("#but_"+materia).innerText='top'
   var dropdowns = document.querySelectorAll(".dropdown-content");
 
   for (let i = 0; i < dropdowns.length; i++) {
