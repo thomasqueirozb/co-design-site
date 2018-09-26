@@ -80,10 +80,10 @@
       "semestre": "2",
       "objetivo": "O projeto consiste em criar um programa que analisa dados autonomamente, gerar um classificador Naive-Bayes que recebe um grupo de tweets e retorna eles devidamente classificados.",
       "conhecimentos": {
-        "Conhecimentos Computacionais": ["Programação em Python", "Biblioteca Pandas"Python],
+        "Conhecimentos Computacionais": ["Programação em Python", "Biblioteca Pandas"],
         "Conhecimentos Matemáticos": ["Estatística", "Cálculo de probabilidades"]
       },
-      "habilidades": ["Análise de dados"Desenvolvimento da biblioteca Pandas]
+      "habilidades": ["Análise de dados","Desenvolvimento da biblioteca Pandas"]
     }
   },
   "Inovação": {

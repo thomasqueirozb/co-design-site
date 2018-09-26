@@ -82,15 +82,18 @@ li {
   color: blue;
   margin-right: 2px;
 }
-
+body{
+  overflow: auto;
+  margin-top: 5rem;
+}
 .photo-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 40%;
-  min-width: 20%;
-  max-height: 30%;
-  min-height: 10%;
+  max-width: 80%;
+  min-width: 60%;
+  max-height: 50%;
+  min-height: 30%;
 }
 
 .text-center {
@@ -106,67 +109,6 @@ body {
 
 .parent {
   display: flex;
-}
-
-.calendario{
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 400px;
-}
-
-.month {
-    padding: 20px 0px;
-    background: #DB0012;
-    text-align: center;
-}
-
-.month ul {
-    margin: 0;
-    padding: 0;
-}
-
-.month ul li {
-    color: white;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.weekdays {
-    padding: 10px 0px;
-    background-color: #f1f1f1;
-}
-
-.weekdays li {
-    display: inline-block;
-    font-size: 0.7rem;
-    margin-left: 1%;
-    color: #B51C00;
-    text-align: center;
-}
-
-.days {
-    background: white;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 11.2%;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-left: 0.1rem;
-    font-size: 0.7rem;
-    color: #B51C00;
-}
-
-.days li .active {
-    padding: 0.3rem;
-    background: #DB0012;
-    color: white !important
 }
 
 @media (min-width: 361px) {
@@ -273,69 +215,5 @@ body {
 
   .parent {
     display: flex;
-  }
-
-  .calendario{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 1000px;
-  }
-
-  .month {
-      padding: 20px 0px;
-      background: #DB0012;
-      text-align: center;
-  }
-
-  .month ul {
-      margin: 0;
-      padding: 0;
-  }
-
-  .month ul li {
-      color: white;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-  }
-
-  .weekdays {
-      padding: 10px 0px;
-      background-color: #f1f1f1;
-      /* display: flex; */
-      /* justify-content: space-between; */
-  }
-
-  .weekdays li {
-      display: inline-block;
-      font-size: 1rem;
-      /* width: 13.6% */
-      padding: 0 1.94%;
-      color: #B51C00;
-      text-align: center;
-  }
-
-  .days {
-      background: white;
-      margin: 0;
-  }
-
-  .days li {
-      list-style-type: none;
-      display: inline-block;
-      width: 13.6%;
-      text-align: center;
-      margin-bottom: 15px;
-      margin-left: 0.3rem;
-      font-size: 1rem;
-      color: #B51C00;
-  }
-
-  .days li .active {
-      padding: 0.3rem;
-      background: #DB0012;
-      color: white !important
   }
 }

@@ -20,8 +20,8 @@
 .dropbtn {
   background-color: #DB0012;
   color: white;
-  padding: 16px;
-  margin-top: 15px;
+  padding: 10px;
+  margin-top: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -41,7 +41,7 @@
   display: none;
   position: fixed;
   background-color: #f1f1f1;
-  min-width: 160px;
+  width: 155px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -51,7 +51,11 @@
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 3px;
+  padding-left: 3px;
+
   text-decoration: none;
 }
 
@@ -61,7 +65,7 @@
 }
 
 .material-icons.home_icon {
-  font-size: 32px;
+  font-size: 16px;
   color: white;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -78,7 +82,7 @@
 .icon {
   background-color: #DB0012;
   cursor: pointer;
-  width: 4rem;
+  width: 3rem;
   top: 0.5%;
   display: flex;
   position: fixed;
@@ -111,8 +115,8 @@
   .dropbtn {
     background-color: #DB0012;
     color: white;
-    padding: 16px;
-    margin-top: 15px;
+    padding: 10px;
+    margin-top: 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
