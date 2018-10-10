@@ -1,0 +1,122 @@
+.clas{
+  
+}
+.material-icons.home_icon {
+  font-size: 16px;
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.material-icons.home_icon:hover {
+  background-color: #B51C00;
+}
+
+.icon {
+  background-color: #DB0012;
+  cursor: pointer;
+  width: 3rem;
+  top: 0.5%;
+  display: flex;
+  position: fixed;
+}
+
+.icon:hover {
+  background-color: #B51C00;
+}
+
+@media (min-width: 361px) {
+  .dropdown {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #DB0012;
+    width: 0;
+    top: 0;
+    height: 100%;
+    left: 0;
+    /* justify-content: space-around; */
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  /* .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .dropbtn {
+    background-color: #DB0012;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .dropbtn:hover {
+    background-color: #B51C00;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 10rem;
+    top: 0%;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+
+  .show {
+    display: inline-flex;
+    flex-direction: column;
+  } */
+
+  .material-icons.home_icon {
+    font-size: 32px;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .material-icons.home_icon:hover {
+    background-color: #B51C00;
+  }
+
+  .icon {
+    background-color: #DB0012;
+    cursor: pointer;
+    width: 4rem;
+    top: 0.5%;
+    display: flex;
+    position: fixed;
+  }
+
+  .icon:hover {
+    background-color: #B51C00;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Grupo 10 -->
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>{{name}}</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/master.css">
+  <link rel="stylesheet" href="./assets/css/dropdown.css">
+
+
+  <!-- Javascript -->
+  <script src="./lib/app.js"></script>
+  <script src="./lib/database.js"></script>
+  <script src="./lib/codes.js"></script>
+  <script src="./lib/handlebars.js"></script>
+
+
+
+
+  <script src="script.js"></script>
+
+</head>
+
+
+
+<body>
+  <div class="icon">
+    <a class="material-icons home_icon" onclick="openNav()" onfocus="openNav()">menu</a>
+  </div>
+
+  <div class="dropdown" id="dropdown_slide">
+    <a class="material-icons home_icon" onclick="closeNav()" onfocus="closeNav()">menu</a>
+    <button class="dropbtn" onclick="window.location.href='index.html'">Principal</a>
+    {{#each category as |cat mat|}}
+      <button class="dropbtn" onclick="aparece('{{mat}}',this)" >{{mat}}</button>
+    <div class="dropdown-content" id="{{mat}}">
+      {{#each cat as |aaaa course|}}
+        <a href="materia.html?category={{mat}}&course={{course}}">{{course}}</a>
+      {{/each}}
+    </div>
+    {{/each}}
+  </div>
+
+  <header class="main_title">
+    <h1 id="project_title">{{name}}</h1>
+  </header>
+
+  <main>
+
+    <img class="photo-center" src="./assets/img/{{name}}.png" alt="Imagem - {{name}}">
+
+    <h2 id="semestre">{{semestre}}º Semestre</h2>
+
+    <h3>Objetivo:</h3>
+    <p>{{objetivo}}</p>
+
+    <div class="parent">
+      <div>
+        <h3>
+          Conhecimentos Envolvidos:
+        </h3>
+
+        <ul class="list">
+          {{#each conhecimentos as |con val|}}
+            <li class="inlist">
+              {{val}}
+              <ul class="inlist">
+
+                {{#each con as |vall aaa|}}
+                  <li>{{vall}}</li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/each}}
+
+        </ul>
+      </div>
+
+      <div>
+        <h3>
+          Habilidades Desenvolvidas:
+        </h3>
+        <ul class="list">
+          {{#each habilidades}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.material-icons.home_icon {
+  font-size: 16px;
+  color: black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.icon {
+  background-color: white;
+  cursor: pointer;
+  top: 0.5%;
+  display: flex;
+  position: fixed;
+  width: 3rem;
+}
+
+
+
+@media (min-width: 361px) {
+  .material-icons.home_icon {
+    font-size: 32px;
+    color: black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+  .icon {
+    background-color: white;
+    cursor: pointer;
+    width: 4rem;
+    top: 0.5%;
+    display: flex;
+    position: fixed;
+  }
+
+}
